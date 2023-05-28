@@ -1,0 +1,26 @@
+:root {
+  --blue: #4169E1;
+  --green: rgb(34, 139, 34);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: calibri;
+
+  background: #292E49;
+  background: -webkit-linear-gradient(#292E49, #536976);
+  background: linear-gradient(#292E49, #536976);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input:hover,
+input:focus{
+  outline: none;
+  border: none;
+}
